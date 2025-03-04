@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:water_pump/components/button.dart';
 import 'package:water_pump/pages/initialize_screen.dart';
-import 'package:water_pump/pages/chart.dart';  // Import the chart page
+import 'package:water_pump/pages/chart.dart';  
 
-// Update the URL as needed.
+
 const String apiUrl = "http://localhost:8000/api";
 
-/// Model classes
+// Model classes
 class Tank {
   final int id;
   final double capacity;
